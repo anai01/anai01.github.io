@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #11383a;
+}
+h1 {
+  font-family: "Jersey 15", sans-serif;
+  font-size: 70px;
+  margin-bottom: 0px;
+  font-weight: 400;
+}
+p {
+  margin: 0px;
+  font-size: 30px;
+  font-family: "Jersey 15", sans-serif;
+}
+.game-container {
+  background: linear-gradient(135deg, #57cc99, #38a3a5);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgb(8 43 39 / 8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+.container {
+  text-align: center;
+  color: #fff;
+}
+
+img {
+  width: 175px;
+  height: 250px;
+  margin: 20px 0;
+  box-shadow: 0 0 10px rgb(8 43 39 / 0.25);
+  border-radius: 10px;
+}
+.buttons {
+  margin: 10px 0;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 20px;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #11383a;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
+button:hover {
+  background-color: #ddd;
+}
+
+.scoreboard {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.scoreboard p {
+  margin: 5px 0;
+}
