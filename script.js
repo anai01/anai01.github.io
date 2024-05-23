@@ -25,9 +25,6 @@ async function initializeGame() {
   const cardData = await cardResponse.json();
   cardValues = cardData.cards.map((card) => getValue(card.value));
   cardImages = cardData.cards.map((card) => card.image);
-
-  console.log(`Initial Next Card Value: ${cardValues[0]}`);
-  console.log(`Initial Current Card Value: 0`);
 }
 
 function getValue(cardValue) {
